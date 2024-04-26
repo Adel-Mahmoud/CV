@@ -1,0 +1,68 @@
+  body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    padding: 30px;
+    margin: auto;
+  }
+  .header{
+    /* background: #eee; */
+    padding: 15px;
+  }
+  .header h1{
+    margin: 0;
+  }
+  .header span{
+    color:#777;
+    font-size: 20px;
+    display: block;
+  }
+  img{
+    width: 120px;
+    height: 150px;
+  }
+  @media print{
+    .header{
+      background: #e0e0e0;
+    }
+    .header span{
+      color:#777;
+    }
+  }
+  .d-flex{
+    display: flex;
+  }
+  .header .d-flex{
+    align-items: center;
+    justify-content: space-between
+  }
+  .content .d-flex div{
+    width: 100%;
+    padding: 15px;
+  }
+  .content .info ul{
+    list-style: none;
+    padding: 0;
+  }
+  .content ul li{
+    margin: 15px 0;
+  }
+  .content ul a{
+    text-decoration: none
+  }
+  .content .profile {
+    border-left:solid #aaa 2px;
+  }
+  .content .skills {
+    border:solid #aaa 2px;
+    border-left:none;
+  }
+  .content .projects {
+    border-top:solid #aaa 2px;
+  }
+  .content .databases {
+    border-right:solid #aaa 2px;
+  }
