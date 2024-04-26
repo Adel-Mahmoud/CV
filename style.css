@@ -1,68 +1,101 @@
-  body {
-    font-family: 'Roboto', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  .container {
-    padding: 30px;
-    margin: auto;
-  }
-  .header{
-    /* background: #eee; */
-    padding: 15px;
-  }
-  .header h1{
-    margin: 0;
-  }
-  .header span{
-    color:#777;
-    font-size: 20px;
-    display: block;
-  }
-  img{
-    width: 120px;
-    height: 150px;
-  }
-  @media print{
-    .header{
-      background: #e0e0e0;
-    }
-    .header span{
-      color:#777;
-    }
-  }
-  .d-flex{
-    display: flex;
-  }
-  .header .d-flex{
-    align-items: center;
-    justify-content: space-between
-  }
-  .content .d-flex div{
-    width: 100%;
-    padding: 15px;
-  }
-  .content .info ul{
-    list-style: none;
-    padding: 0;
-  }
-  .content ul li{
-    margin: 15px 0;
-  }
-  .content ul a{
-    text-decoration: none
-  }
-  .content .profile {
-    border-left:solid #aaa 2px;
-  }
-  .content .skills {
-    border:solid #aaa 2px;
-    border-left:none;
-  }
-  .content .projects {
-    border-top:solid #aaa 2px;
-  }
-  .content .databases {
-    border-right:solid #aaa 2px;
-  }
+* {
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 30px;
+  margin: auto;
+}
+img {
+  width: 120px;
+  height: 150px;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  padding: 30px;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.header {
+  padding: 0 15px;
+  border-bottom: 2px solid #777;
+  margin: 0;
+}
+
+.header h1 {
+  font-weight: bold;
+  line-height: 10px;
+  font-size: 35px;
+  padding: 0;
+  display: inline;
+}
+
+.header span {
+  line-height: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+  display: block;
+}
+
+.header-content {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.contacts ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.left,
+.right {
+  width: 100%;
+  padding: 20px;
+}
+
+.section {
+  margin-top: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none
+}
+
+.right {
+  border-left: 2px dashed #777;
+}
+
+.right p {
+  padding-left: 30px;
+  line-height: 25px;
+}
+
+svg {
+  margin-right: 2px;
+}
